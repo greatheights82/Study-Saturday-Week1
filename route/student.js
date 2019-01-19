@@ -34,7 +34,7 @@ router.post('/', (req, res, next) => {
       id: newId,
       name: req.body.name,
     };
-    students.push[student];
+    students.push(student);
     res.json({ students });
   } catch (error) {
     next(error);
