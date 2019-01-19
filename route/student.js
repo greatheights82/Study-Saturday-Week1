@@ -41,8 +41,8 @@ router.post('/', (req, res, next) => {
   }
 });
 
-// route.put('/:id', (req, res, next) => {});
+// router.put('/:id', (req, res, next) => {});
 
-// route.delete('/', (req, res, next) => {});
+// router.delete('/', (req, res, next) => {});
 
-module.exports = students;
+module.exports = router;
